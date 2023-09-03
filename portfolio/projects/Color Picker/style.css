@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: white;
+  box-shadow: 2px 3px 5px rgb(97, 97, 97);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+}
+
+a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.switch {
+  display: flex;
+}
+
+.container {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.color-info {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 450px;
+  height: 60px;
+  margin: 0 auto 50px auto;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.color-name {
+  color: #34db90;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: hsla(0, 100%, 100%, 0.3);
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}

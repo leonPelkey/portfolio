@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 25vw;
+  height: 20vw;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 165);
+  border-radius: 5px;
+  text-align: center;
+  margin: 4%;
+}
+
+.card img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 3%;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+
+.tags {
+  word-spacing: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    margin-top: 10%;
+  }
+  
+  .card {
+    width: 30vw;
+    height: 25vw;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+  
+  .card p {
+    font-size: .75rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    margin-top: 13%;
+  }
+ 
+  .card {
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+  
+  .card p {
+    font-size: .75rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    margin-top: 20%;
+  }
+  
+  .card {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .card h3 {
+    font-size: 0.75rem;
+  }
+  
+  .card p {
+    font-size: .5rem;
+  }
+
+  .tags {
+    margin-top: 15px;
+  }
+}

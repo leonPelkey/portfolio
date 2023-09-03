@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  color: white;
+}
+
+header {
+  width: 40vw;
+  height: 8vw;
+  color: #FF10F0;
+  text-shadow: 0 0 15px #FF10F0;
+  border: 2px solid #FF10F0;
+  box-shadow: 0 0 30px #FF10F0;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Sacramento', cursive;
+  margin: 3vw auto;
+}
+
+nav {
+  text-align: center;
+}
+
+.filter-button {
+  width: 10vw;
+  height: 4vw;
+  background-color: transparent;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #bd52ff;
+  text-shadow: 0 0 15px #A120F2;
+  border: 2px solid #A120F2;
+  box-shadow: 0 0 30px #A120F2;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #A120F2;
+  color: white;
+  transition: .4s;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 3vw auto;
+}
+
+.menu-card {
+  display: flex;
+  width: 40vw;
+  height: 11vw;
+  border: 2px solid #04D9FF;
+  text-shadow: 0 0 15px #04D9FF;
+  box-shadow: 0 0 30px #04D9FF;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-card {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+.menu-card img {
+  width: 15vw;
+  height: 100%;
+}
+
+.info-container {
+  width: 80vw;
+}
+
+.menu-card h3 {
+  color: #04D9FF;
+  font-size: 2.5vw;
+  text-shadow: 0 0 15px #04D9FF;
+  font-family: 'Sacramento', cursive;
+  margin: 1vw 0;
+  text-align: center;
+}
+
+.menu-card p {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1vw;
+}

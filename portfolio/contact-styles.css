@@ -1,0 +1,32 @@
+header {
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container p {
+  margin: 3% auto;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    margin-top: 20%;
+  }
+}
